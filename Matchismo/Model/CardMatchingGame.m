@@ -77,6 +77,10 @@ static const int COST_TO_CHOOSE = 1;
     }
 }
 
+- (void) resetScore {
+    self.score = 0;
+}
+
 - (instancetype) init {
     return nil;
 }
